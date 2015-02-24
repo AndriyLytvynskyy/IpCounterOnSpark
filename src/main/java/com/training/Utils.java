@@ -1,7 +1,7 @@
 package com.training;
 
 /**
- * Utils class
+ * Utils class (toInteger)
  */
 public final class Utils {
     public static int toInteger(String s) {
