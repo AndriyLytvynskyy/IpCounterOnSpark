@@ -15,6 +15,9 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ Driver class
+*/
 public class IpCountSpark implements Serializable {
 
     private static final Pattern pattern = Pattern.compile("(ip\\d+)\\s.*\"GET.*?\"\\s\\d+\\s(\\d+)(.*)");
